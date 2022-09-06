@@ -70,6 +70,45 @@ body {
   transition: transform 0.4s;
 }
 
+.stars > .star {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #fff;
+  border-radius: 50rem;
+  position: absolute;
+}
+
+.star {
+  left: 6.5rem;
+  bottom: 8rem;
+  animation: glowStar 2.7s alternate-reverse infinite;
+}
+
+.star:nth-child(2) {
+  left: 5rem;
+  bottom: 6.7rem;
+
+  animation: glowStar 4s alternate-reverse infinite;
+}
+
+.star:nth-child(3) {
+  left: 2rem;
+  bottom: 2rem;
+  animation: glowStar 3.1s alternate-reverse infinite;
+}
+
+.star:nth-child(4) {
+  left: 5rem;
+  bottom: 3rem;
+  animation: glowStar 3.2s alternate-reverse infinite;
+}
+
+.star:nth-child(5) {
+  left: 7.2rem;
+  bottom: 1.4rem;
+  animation: glowStar 5.2s alternate-reverse infinite;
+}
+
 body.dark {
   background: var(--dark);
   transition: background 0.6s;
@@ -89,4 +128,19 @@ body.dark .switch {
 
 body.dark h1 {
   color: var(--light);
+}
+
+@keyframes glowStar {
+  50% {
+    background: transparent;
+  }
+
+  80% {
+    background: var(--light);
+  }
+
+  100% {
+    background: var(--light);
+    filter: drop-shadow(0 0 0.7rem #fff);
+  }
 }
