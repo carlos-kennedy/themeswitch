@@ -21,11 +21,20 @@ body {
   justify-content: center;
   background: var(--light);
 
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.9rem;
+  letter-spacing: 0.9rem;
+  text-transform: uppercase;
+
   transition: background 0.6s;
 }
 
 .wrapper {
   display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 30vh;
 }
 
 .switch {
@@ -76,4 +85,8 @@ body.dark .switch {
     0px 27.1px 43.1px rgba(0, 0, 0, 0.155), 0px 90px 143px rgba(0, 0, 0, 0.24);
 
   transition: box-shadow 0.7s;
+}
+
+body.dark h1 {
+  color: var(--light);
 }
