@@ -1,6 +1,6 @@
 <div align="center">
-<h1> 🌑 <a href="https://carlos-kennedy.github.io/themeSwitch/" title="Theme Switch"> Theme Switch </a> ☀ </h1>
-<a href="https://carlos-kennedy.github.io/themeSwitch/" title="Theme Switch"><img src="https://i.imgur.com/NAtHu6N.png?2" alt="projeto do themeSwitch" /> </a>
+<h1> 🌑 <a href="https://carlos-kennedy.github.io/themeswitch/" title="Theme Switch"> Theme Switch </a> ☀ </h1>
+<a href="https://carlos-kennedy.github.io/themeswitch/" title="Theme Switch"><img src="https://i.imgur.com/NAtHu6N.png?2" alt="projeto do themeSwitch" /> </a>
 <p> Projeto feito apartir do desafio do <a href="https://app.rocketseat.com.br/discover/challenges/theme-switcher"> discover</a>
 </p>
 <hr>
